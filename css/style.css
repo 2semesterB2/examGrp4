@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.row {
+	margin: 0;
+}
+
+#polterabend{
+	background: #C01719;
+
+}
+
+#knap{
+	margin-top: 5%;
+	color: white;
+	background: #0015FF;
+	font-size: 350%;
+	padding: 20px;
+	text-align: center;
+}

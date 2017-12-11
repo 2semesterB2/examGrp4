@@ -5,16 +5,61 @@
 	margin: 0;
 }
 
-#polterabend{
+#polterabendtekst{
 	background: #C01719;
 
 }
 
-#knap{
+#sølvpakken{
 	margin-top: 5%;
 	color: white;
 	background: #0015FF;
-	font-size: 350%;
-	padding: 20px;
+	font-size: 370%;
+	padding: 12px;
 	text-align: center;
+}
+
+#polterabend
+{
+	margin-top: 1%;
+	color: white;
+	background: #0015FF;
+	font-size: 330%;
+	padding: 7px;
+	text-align: center;
+}
+
+#book
+{
+	margin-top: 1%;
+	color: white;
+	background: #FF0004;
+	font-size: 480%;
+	padding: 10px;
+	text-align: center;
+}
+
+#basis
+{ 
+	margin-top: 1%;
+	color: white;
+	background: #0015FF;
+	font-size: 250%;
+	padding: 5px;
+	text-align: center;
+}
+
+#børn
+{ 
+	margin-top: 1%;
+	color: white;
+	background: #0015FF;
+	font-size: 250%;
+	padding: 5px;
+	text-align: center;
+}
+
+footer
+{
+	color: black;
 }

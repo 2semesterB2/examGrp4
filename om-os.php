@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <meta name="author" content="Jeevith Mohanakumar, Daniel Christensen og Nina Dupont Lehtinen">
-	  <title>Pakker og priser - børnefødselsdag, polterabend, dates m.fl.</title>
+	  <title>Om os - Instruktøre, baggrund, værdier og mision</title>
 	  <meta name="description" content="SKRIV NOGET HER">
 	  <meta name="keywords" content="SKRIV NOGET HER">
 	  
@@ -16,67 +16,34 @@
 </head>
 	  
 <body>
-<div class="container-fluid pakker-priser-wrapper">	
+<div class="container-fluid praktisk-info-wrapper">	
 <?php 
-	$current=2;
+	$current=5;
 	include("includes/header.php"); 
 ?>
-	
-		
+
 <section class="content">
 	<div class="row">
-    	<div class="hidden-xs col-sm-offset-1 col-sm-4">
-			<div class="text-box polterabendtekst">
-     		<h1>POLTERABEND</h1>
-        	<p>Udfordre bla bla bla</p>
+    	<div class="col-sm-offset-1 col-sm-5">
+			<div class="text-box">
+     		<h1>Sikkerhed</h1>
         	<h3> Skyd på kaninen</h3>
         	<p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
 			This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
 			This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!</p>
-     </div>
+    	</div>
 		</div>
 		
-     <div class="col-xs-offset-0 col-xs-10 col-sm-offset-0 col-sm-6"> <!-- right-colums -->
-		 <div class="row">
-			 <div class="col-xs-8 col-sm-8 col-md-8 text-right">
-		 		<button id="firma" type="button" class="btn btn-default knapper"><h2 class="lilleh2">firma-<br>arrangement</h2></button>
-				 
-		 		<div class="row">
-				 	<div class="col-sm-12">
-						<button id="solv" type="button" class="btn btn-default knapper"><h2 class="mellemh2">sølv-pakken</h2></button>
-					</div>
-				</div>
-			 </div>
-			 
-			 <div class="col-xs-4 col-sm-4 col-md-4 text-left">
-			 	<button id="guld" type="button" class="btn  btn-default knapper"><h2 class="mellemh2">guld-<br>pakken</h2></button>
-			 </div>
-		 </div>
-		 
-		 <div class="row">
-		 	<div class="col-xs-7 col-sm-5 text-right">
-				<button id="polterabend" type="button" class="btn btn-default knapper"><h2 class="lilleh2">Polterabend</h2></button>
-			 
-				<div class="row">
-					<div class="col-xs-12 col-md-12 text-right">
-						<button class="book" type="button" class="btn btn-default"><h2 class="book-knap">book</button></h2>
-					</div>
-				</div>
-			 </div>
-		 
-		 <div class="col-xs-5 col-md-7 text-left">
-			 <button id="basis" type="button" class="btn btn-default knapper"><h2 class="mellemh2">basis-pakken</h2></button>
-		 
-		 	<div class="row">
-				<div class="col-xs-12 text-left">
-					<button id="born" type="button" class="btn btn-default knapper"><h2 class="lilleh2">børnefødselsdag</h2></button>
-				</div>
-		 	</div>
-		</div>
-	 </div> 
-	</div><!-- end right colum with buttons -->
-	
-    </div>
+	<div class="col-sm-5">
+		<div class="text-box">
+     		<h1>Hvem er vi?</h1>
+        	<h3>Manden bag Klatresjov klatrer selv</h3>
+        	<p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
+			This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
+			This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!</p>
+     </div>
+	</div>
+	</div><!-- end row -->    
 </section>
 	
 <?php include("includes/footer.php"); ?>	
@@ -84,6 +51,6 @@
 	<script src="js/myjava.js"></script>
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.js"></script>
-	
+	</div>
   </body>
 </html>

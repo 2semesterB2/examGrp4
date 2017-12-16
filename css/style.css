@@ -1,82 +1,396 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
+.row, .container-fluid {
+	margin: 0;
+	padding: 0;
+}
 
-.row {
+.col, [class*="col-"] { padding: 0;
+	}
+
+.forside-wrapper {
+	background-image:url(../images/drenge-som-klatre.jpg);
+	background-size: cover;
+}
+
+.praktisk-info-wrapper {
+	background-image: url(../images/Sikkerheds-mini-kursus.jpg);
+	background-size: cover;
+}
+
+.pakker-priser-wrapper {
+	background-image: url(../images/polterarbend.jpg);
+	background-size: 100%;
+}
+
+.content {
+	margin-top: 2%;
+}
+
+.text-box {
+	background: rgba(51,0,0,0.90);
+	padding: 7%;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#logo {
+	height: 100%;
+	margin-top: 5%;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif !important;
+	color: white !important;
+	font-size: 50px !important;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 25px !important;
+	padding-top: 2% !important;
+	text-transform: uppercase !important;
+	color: white !important;
+	font-family: 'abel', sans serif !important;
+}
+
+h2 {
 	margin: 0;
 }
 
-#polterabendtekst{
-	background: #C01719;
-
-}
-
-#sølvpakken{
-	margin-top: 5%;
+p {
+	font-family: 'abel', sans serif;
 	color: white;
-	background: #0015FF;
-	font-size: 370%;
-	padding: 12px;
-	text-align: center;
+	font-size: 16px;
 }
 
-
-#polterabend
-{
-	margin-top: 1%;
-	color: white;
-	background: #0015FF;
-	font-size: 330%;
-	padding: 7px;
-	text-align: center;
+.btn, .btn-default {
+	padding: 0;
 }
 
-#book
-{
-	margin-top: 1%;
-	color: white;
-	background: #FF0004;
-	font-size: 480%;
-	padding: 10px;
-	text-align: center;
-}
-
-#basis
-{ 
-	margin-top: 1%;
-	color: white;
-	background: #0015FF;
-	font-size: 250%;
-	padding: 5px;
-	text-align: center;
-}
-
-#firma
-{ 
+.knapper {
+	background: #000033;
 	
-	color: white;
-	background: #0015FF;
-	font-size: 250%;
-	padding: 5px;
-	text-align: center;
 }
 
-#børn
-{ 
+.knapper:hover {
+	background-color: #330000;
+}
+
+.lilleh2 .mellemh2:hover {
+	opacity: 0.3;
+}
+
+.book-knap:hover {
+	background-color: #330000;
+}
+
+.book-knap {
+	background-color: #003300;
+	font-size: 70px;
+	color: white;
+	padding: 15px 25px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.lilleh2 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: white;
+	padding: 15px 25px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.mellemh2 {
+	font-size: 55px;
+	letter-spacing: 3px;
+	color: white;
+	padding: 15px 25px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.storh2 {
+	font-size: 73px;
+	letter-spacing: 3px;
+	color: white;
+	padding: 15px 25px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+
+/* ------------- Booking side ------------- */
+
+.trin1, .trin2, .trin3 {
+	text-align:center;
+	font-size: 16px;
+}
+
+.trin {
+	padding-top: 5%;
+}
+
+#antal-voksne {
+	margin-right: 8px;
+}
+
+#antal-born {
+	margin-left: 8px; }
+/* ----------Booking side slut ------------ */
+
+
+
+
+/*------------- Forside ------------------*/
+#pakker-forside {
+	margin: 0px 8px 8px 8px;
+	padding-top: 10px;
+}
+#pristext {
+	font-size: 73px;
+}
+.pakker-priser {
+	line-height: 72%;
+	letter-spacing: 3px;
+	font-size: 100px;
+	color: white;
+	padding: 15px 25px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+#galleri-forside {
+	margin: 0 0 8px 8px;
+}
+
+#om-os-forside {
+	margin: 8px 0 0px 8px;
+}
+
+#kontakt-forside {
+	margin: 8px 8px 8px 0px;
+}
+
+#praktisk-info-forside {
+	margin: 8px 0 0px 8px;
+}
+
+.praktiskinfotext {
+	line-height: 72%;
 	
-	color: white;
-	background: #0015FF;
-	font-size: 250%;
-	padding: 5px;
-	text-align: center;
-}
-#guld
-{ 
-	color: white;
-	background: #0015FF;
-	font-size: 250%;
-	padding: 5px;
-	text-align: center;
 }
 
+#info-text-forside {
+	font-size: 31px;
+	letter-spacing: 2px;
+	color: white;
+	padding: 0 0 0 0;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+/*------------- Forside slut--------------*/
+
+/*----------- praktisk info --------------*/
+
+#sikkerhed {
+	margin: 5% 8px 8px 0;
+}
+
+#udstyr {
+	margin: 8px 8px 8px 0;
+}
 
 
+#faciliteter {
+	margin: 0 0 8px 8px;
+}
+
+#lokation {
+	margin: 8px 0 0 8px;
+}
+
+#erfaring {
+	margin: 0 0 8px 8px;
+}
+
+/*-------- praktisk info slut ------------*/
+
+/*-------- pakker og priser --------------*/
+#firma {
+	font-size: 250%;
+	margin: 0px 8px 8px 8px;
+	letter-spacing: 2px;
+}
+
+#guld { 
+	font-size: 300%;
+	letter-spacing: 2px;
+	margin-left: 8px;
+	margin-top: 20%;
+	margin-bottom: 0;
+}
+
+#solv {
+	font-size: 300%;
+	letter-spacing: 2px;
+	margin: 8px 8px 8px 0px;
+}
+
+
+#polterabend {
+	margin: 8px 8px 8px 0;
+}
+
+#basis {
+	font-size: 300%;
+	letter-spacing: 2px;
+	margin: 8px 0px 8px 8px;
+}
+
+.book {
+	letter-spacing: 5px;
+	margin: 8px 8px 0px 0px;
+}
+
+#born {
+	font-size: 250%;
+	margin-right: 8px;
+	letter-spacing: 2px;
+	margin: 8px 0px 0px 8px;
+}
+/* ------- pakker og priser slut -------- */
+
+
+
+/* ------- Header ------------ */
+
+.menu-baggrund {
+	background: rgba(51,0,0,0.90);
+	padding: 10%;
+}
+
+#menuknap {
+	background-color: transparent;
+	border-radius: 0;
+	border-color: transparent;
+	outline: 0;
+	padding: 0;
+}
+
+.glyphicon-menu-hamburger {
+	font-size: 25px;
+	padding-left: 5px;
+}
+
+.menuoverskrift {
+	font-size: 30px;
+	padding-top: 2%;
+	text-transform: uppercase;
+	color: white;
+}
+
+.menupunkter {
+	font-size: 25px;
+	padding-top: 2%;
+	text-transform: uppercase;
+}
+
+.menupunkter:hover {
+	color: #000033;
+}
+
+.current { 
+	color: #003300;					/* jeg ønsker at tekstens farve bliver grøn, men det vil ikke virke. Det er som om det bliver overrided, men jeg kan ikke løse det. dog reagere det fint på backgroundcolor og andre styles. borders er ikke meningen. */
+	border-top: solid;
+	border-bottom-top-radius: 3px;
+	border-color: #003300;
+	border-bottom: solid;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* ------- Footer ------------ */
+
+.glyphicon-menu-right {
+	font-size: 10px;
+} 
+
+.footer-text {
+	color: darkgrey;
+	padding-top: 2%;
+	font-size: 12px;
+	font-family: 'abel', sans serif;
+}
+
+.lilleoverskrift {	
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.text-link {
+	color: darkgray;
+	font-size: 12px;
+}
+
+.text-link:hover {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.social-media {
+	padding-bottom: 30px;
+}
+
+.social-media:hover {
+    opacity: 0.7;
+}
+
+#klatreklub {
+	height: 70px;
+}
+footer {
+	margin-top: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: black;
+}
+
+
+@media screen and (max-width: 1300px) {
+	.storh2 {
+		font: 55px;
+	}
+	
+	.mellemh2 {
+        font-size: 40px;
+    }
+	
+	.lilleh2 {
+		font-size: 20px;
+	}
+	
+	.book-knap {
+		font-size: 55px;
+	}
+}

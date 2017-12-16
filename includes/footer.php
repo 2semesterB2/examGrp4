@@ -5,13 +5,13 @@
 				<br>
 				<br>
 				<div class="col-sm-12 social-media">
-					<a href="www.facebook.com/klatresjov/"><img src="../images/icons/facebook.png" alt="Besøg vores Facebook side"</a>
+					<a href="www.facebook.com/klatresjov/"><img src="../images/icons/facebook.png" alt="Besøg vores Facebook side"></a>
 					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12 social-media">
-					<a href="www.facebook.com/klatresjov/"><img src="../images/icons/instagram.png" alt="Besøg vores Instagram side"</a> 
+					<a href="www.facebook.com/klatresjov/"><img src="../images/icons/instagram.png" alt="Besøg vores Instagram side"></a> 
 				</div>
 			</div>
 		</div>	

@@ -26,15 +26,15 @@
      <div class="col-xs-offset-0 col-xs-10 col-md-offset-4 col-md-7"> <!-- right-colums -->
 		 <div class="row">
 			 <div class="col-xs-8 col-sm-8 col-md-7 text-right">
-		 		<a href="pakkerogpriser.php"><button id="pakker-forside" type="button" class="btn btn-default knapper"><h2 class="pakker-priser">pakker<br><span id="pristext">og priser</span></h2></button></a>
+		 		<a href="pakkerogpriser.php"><button id="pakker-forside" type="button" class="btn btn-default knapper "><h2 class="pakker-priser animated pulse">pakker<br><span id="pristext">og priser</span></h2></button></a>
 			 </div>
 			 
 			 <div class="col-xs-4 col-sm-4 col-md-5 text-left">
-			 	<a href="index.php"><button id="galleri-forside" type="button" class="btn  btn-default knapper"><h2 class="storh2">galleri</h2></button></a>
+			 	<a href="index.php"><button id="galleri-forside" type="button" class="btn  btn-default knapper"><h2 class="storh2 animated pulse">galleri</h2></button></a>
 				 
 				 <div class="row">
 				 	<div class="col-xs-12 col-md-12">
-						<a href="om-os.php"><button id="om-os-forside" type="button" class="btn  btn-default knapper"><h2 class="lilleh2">om os</h2></button></a>
+						<a href="om-os.php"><button id="om-os-forside" type="button" class="btn  btn-default knapper"><h2 class="lilleh2 animated pulse">om os</h2></button></a>
 					 </div>
 				 </div>
 			 </div>
@@ -42,17 +42,17 @@
 		 
 		 <div class="row">
 		 	<div class="col-xs-7 col-md-5 text-right">
-				<a href="kontakt.php"><button id="kontakt-forside" type="button" class="btn btn-default knapper"><h2 class="lilleh2">kontakt</h2></button></a>
+				<a href="kontakt.php"><button id="kontakt-forside" type="button" class="btn btn-default knapper"><h2 class="lilleh2 animated pulse">kontakt</h2></button></a>
 			 
 				<div class="row">
 					<div class="col-xs-12 col-md-12 text-right">
-						<a href="booking.php"><button class="book" type="button" class="btn btn-default"><h2 class="book-knap">book</h2></button></a>
+						<a href="booking.php"><button id="book" type="button" class="btn btn-default"><h2 class="book-knap animated pulse">book</h2></button></a>
 					</div>
 				</div>
 			 </div>
 		 
 		 <div class="col-xs-5 col-md-7 text-left">
-			 <a href="praktisk-info.php"><button id="praktisk-info-forside" type="button" class="btn btn-default knapper"><h2 class="knap-text praktiskinfotext storh2"><span id="info-text-forside">praktisk</span><br>info</h2></button></a>
+			 <a href="praktisk-info.php"><button id="praktisk-info-forside" type="button" class="btn btn-default knapper"><h2 class="praktiskinfotext storh2 animated pulse"><span id="info-text-forside">praktisk</span><br>info</h2></button></a>
 		 </div>
 	 </div> 
 	</div><!-- end right colum with buttons -->

@@ -1,3 +1,23 @@
+/*function showDiv() {
+   document.getElementById('welcomeDiv').style.display = "block"; 
+}*/
+
+function showDiv() { 
+        if(document.getElementById('solv-pakke-tekst').style.display=='none') { 
+            document.getElementById('solv-pakke-tekst').style.display='block'; 
+        } 
+        return false;
+    } 
+   /* function hide() { 
+        if(document.getElementById('polterabendtekst').style.display=='block') { 
+            document.getElementById('polterabendtekst').style.display='none'; 
+        } 
+        return false;
+    }   */
+
+
+
+
 /* input form til at vælge antal voksne eller børn  */ 
 var count = 1;
     var countEl = document.getElementById("count");
@@ -45,6 +65,7 @@ $(function () {
 
 
 /* Kontakt formular */
+/* Kontakt formularen er lavet ud fra kode på følgende side: https://webdesign.tutsplus.com/tutorials/building-a-bootstrap-contact-form-using-php-and-ajax--cms-23068
 
 $("#kontaktform").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
@@ -99,3 +120,31 @@ function submitMSG(valid, msg){
     }
     $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 }
+
+
+
+/*Nedenstående kode burde få knappen lokation til at få animation pulse ved hover 
+/* Kode taget fra http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/
+/* Animation på knapper
+function animationHover(element, animation){
+    element = $(element);
+    element.hover(
+        function() {
+            element.addClass('animated ' + animation);        
+        },
+        function(){
+            //wait for animation to finish before removing classes
+            window.setTimeout( function(){
+                element.removeClass('animated ' + animation);
+            }, 2000);         
+        });
+}
+
+
+$(document).ready(function(){
+    $('#lokation').each(function() {
+        animationHover(this, 'pulse');
+    });
+});
+*/
+ 

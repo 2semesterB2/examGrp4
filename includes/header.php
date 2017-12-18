@@ -32,7 +32,7 @@ if ($current==7) {$c7 ="class='current'";};
 			<li $c2><a href='pakkerogpriser.php'><p class='menupunkter'>Pakker og priser</p></a></li>
 			<li $c3><a href='praktisk-info.php'><p class='menupunkter'>Praktisk info</p></a></li>
 			<li $c4><a href='booking.php'><p class='menupunkter'>Book</p></a></li>
-			<li $c5><a href='om os.php'><p class='menupunkter'>Om os</p></a></li>
+			<li $c5><a href='om-os.php'><p class='menupunkter'>Om os</p></a></li>
 			<li $c6><a href='index.php'><p class='menupunkter'>Galleri</p></a></li>
 			<li $c7><a href='kontakt.php'><p class='menupunkter'>Kontakt</p></a></li>
 			

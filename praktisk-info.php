@@ -27,7 +27,7 @@
 <section class="content">
 	<div class="row">
     	<div class="hidden-xs col-sm-offset-1 col-sm-4">
-			 <div class="text-box sikkerhedstext">
+			 <div class="text-box sikkerhedstext animated pulse">
      		<h1>sikkerhed</h1>
         	<h3> Skyd på kaninen</h3>
         	<p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
@@ -39,21 +39,21 @@
      <div class="col-xs-offset-0 col-xs-10 col-sm-offset-0 col-sm-6"> <!-- right-colums -->
 		 <div class="row">
 			 <div class="col-xs-8 col-sm-8 col-md-8 text-right">
-		 		<button id="sikkerhed" type="button" class="btn btn-default knapper"><h2 class="mellemh2">sikkerhed</h2></button>
+		 		<button id="sikkerhed" type="button" class="btn btn-default knapper"><h2 class="mellemh2 animated pulse">sikkerhed</h2></button>
 				 
 		 		<div class="row">
 				 	<div class="col-sm-12">
-						<button id="udstyr" type="button" class="btn btn-default knapper"><h2 class="mellemh2">udstyr</h2></button>
+						<button id="udstyr" type="button" class="btn btn-default knapper"><h2 class="mellemh2 animated pulse">udstyr</h2></button>
 					</div>
 				</div>
 			 </div>
 			 
 			 <div class="col-xs-4 col-sm-4 col-md-4 text-left">
-			 	<button id="faciliteter" type="button" class="btn  btn-default knapper"><h2 class="mellemh2">faci-<br>liteter</h2></button>
+			 	<button id="faciliteter" type="button" class="btn  btn-default knapper"><h2 class="mellemh2 animated pulse">faci-<br>liteter</h2></button>
 				 
 				 <div class="row">
 				 	<div class="col-sm-12">
-						<button id="erfaring" type="button" class="btn btn-default knapper"><h2 class="lilleh2">erfaring</h2></button>
+						<button id="erfaring" type="button" class="btn btn-default knapper"><h2 class="lilleh2 animated pulse">erfaring</h2></button>
 					</div>
 				</div> 
 			 </div>
@@ -61,11 +61,11 @@
 		 
 		 <div class="row">
 		 	<div class="col-xs-7 col-sm-7 text-right">
-				<button class="book" type="button" class="btn btn-default"><h2 class="book-knap">book</button></h2>
+				<a href="booking.php"><button id="book" type="button" class="btn btn-default"><h2 class="book-knap animated pulse">book</h2></button></a>
 			 </div>
 		 
-		 <div class="col-xs-5 col-md-5 text-left">
-			 <button id="lokation" type="button" class="btn btn-default knapper"><h2 class="lilleh2">lokation</h2></button>
+		 <div class="col-xs-5 col-md-5 text-left animation-knap">
+			 <button id="lokation" type="button" class="btn btn-default knapper animated pulse"><h2 class="lilleh2">lokation</h2></button>
 		</div>
 	 </div> 
 	</div><!-- end right colum with buttons -->

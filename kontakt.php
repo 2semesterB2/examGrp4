@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<div class="container-fluid praktisk-info-wrapper">
+	<div class="container-fluid kontakt-wrapper">
 	<?php 
 	$current=7;
 	include("includes/header.php"); 
@@ -33,7 +33,7 @@
 		<section class="content">
 			<div class="row">
 				<div class="col-sm-offset-1 col-sm-6">
-				  <div class="text-box">
+				  <div class="text-box animated pulse">
 						<h1>Kontakt os</h1>
 					<div class="row">
 							<div class="col-sm-12">
@@ -42,6 +42,7 @@
 					  </div>
 					  <div class="row">
 					  	<div class="col-sm-12">
+							<!-- Kontakt formularen er lavet ud fra kode på følgende side: https://webdesign.tutsplus.com/tutorials/building-a-bootstrap-contact-form-using-php-and-ajax--cms-23068
 							<form action="sendmail.php" method="post" id="kontaktform">
 								<div class="row">
             						<div class="form-group col-sm-6">
@@ -73,7 +74,7 @@
 					  </div> 
 				</div>
 				<div class="col-sm-4">
-					<div class="text-box">
+					<div class="text-box animated pulse">
 						<h1>Godt at vide</h1>
 						<h3>Manden bag Klatresjov klatre selv</h3>
 						<p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! This index.html page is a placeholder with the CSS, font and favicon. </p>

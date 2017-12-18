@@ -21,55 +21,56 @@
 	$current=2;
 	include("includes/header.php"); 
 ?>
-	
 		
+	
 <section class="content">
 	<div class="row">
     	<div class="hidden-xs col-sm-offset-1 col-sm-4">
-			<div class="text-box polterabendtekst">
-     		<h1>POLTERABEND</h1>
+			<div id="solv-pakke-tekst" style="display:none;" class="answer_list" >
+			<div class="text-box animated pulse">
+     		<h1>sølv-pakken</h1>
         	<p>Udfordre bla bla bla</p>
         	<h3> Skyd på kaninen</h3>
         	<p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
 			This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!
-			This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up theThis index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!</p>
+			</p>
      </div>
 		</div>
-		
+		</div>
      <div class="col-xs-offset-0 col-xs-10 col-sm-offset-0 col-sm-6"> <!-- right-colums -->
 		 <div class="row">
 			 <div class="col-xs-8 col-sm-8 col-md-8 text-right">
-		 		<button id="firma" type="button" class="btn btn-default knapper"><h2 class="lilleh2">firma-<br>arrangement</h2></button>
+		 		<button id="firma" type="button" class="btn btn-default knapper"><h2 class="lilleh2 animated pulse">firma-<br>arrangement</h2></button>
 				 
 		 		<div class="row">
 				 	<div class="col-sm-12">
-						<button id="solv" type="button" class="btn btn-default knapper"><h2 class="mellemh2">sølv-pakken</h2></button>
+						<button id="solv" type="button" name="answer" value="Show Div" onclick="showDiv()" class="btn btn-default knapper"><h2 class="mellemh2 animated pulse">sølv-pakken</h2></button>
 					</div>
 				</div>
 			 </div>
 			 
 			 <div class="col-xs-4 col-sm-4 col-md-4 text-left">
-			 	<button id="guld" type="button" class="btn  btn-default knapper"><h2 class="mellemh2">guld-<br>pakken</h2></button>
+			 	<button id="guld" type="button" class="btn  btn-default knapper"><h2 class="mellemh2 animated pulse">guld-<br>pakken</h2></button>
 			 </div>
 		 </div>
 		 
 		 <div class="row">
 		 	<div class="col-xs-7 col-sm-5 text-right">
-				<button id="polterabend" type="button" class="btn btn-default knapper"><h2 class="lilleh2">Polterabend</h2></button>
+				<button id="polterabend" type="button" class="btn btn-default knapper"><h2 class="lilleh2 animated pulse">Polterabend</h2></button>
 			 
 				<div class="row">
 					<div class="col-xs-12 col-md-12 text-right">
-						<button class="book" type="button" class="btn btn-default"><h2 class="book-knap">book</button></h2>
+						<a href="booking.php"><button id="book" type="button" class="btn btn-default"><h2 class="book-knap animated pulse">book</h2></button></a> <!-- når id="book", virker knappen som den skal.. selvom id'et bliver brugt flere steder? .. bruger jeg class, kommer der en grå kant rundt om knappen, som ikke er ønsket. -->
 					</div>
 				</div>
 			 </div>
 		 
 		 <div class="col-xs-5 col-md-7 text-left">
-			 <button id="basis" type="button" class="btn btn-default knapper"><h2 class="mellemh2">basis-pakken</h2></button>
+			 <button id="basis" type="button" class="btn btn-default knapper"><h2 class="mellemh2 animated pulse">basis-pakken</h2></button>
 		 
 		 	<div class="row">
 				<div class="col-xs-12 text-left">
-					<button id="born" type="button" class="btn btn-default knapper"><h2 class="lilleh2">børnefødselsdag</h2></button>
+					<button id="born" type="button" class="btn btn-default knapper"><h2 class="lilleh2 animated pulse">børnefødselsdag</h2></button>
 				</div>
 		 	</div>
 		</div>

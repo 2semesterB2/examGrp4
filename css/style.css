@@ -1,5 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
+
+
 .row, .container-fluid {
 	margin: 0;
 	padding: 0;
@@ -10,7 +12,7 @@
 
 .forside-wrapper {
 	background-image:url(../images/drenge-som-klatre.jpg);
-	background-size: cover;
+	background-size:cover;
 }
 
 .praktisk-info-wrapper {
@@ -23,6 +25,21 @@
 	background-size: 100%;
 }
 
+.booking-wrapper {
+	background-image: url(../images/Sikkerheds-mini-kursus.jpg);
+	background-size: cover;
+}
+
+.om-os-wrapper {
+	background-image:url(../images/drenge-som-klatre.jpg);
+	background-size:cover;
+}
+
+.kontakt-wrapper {
+	background-image:url(../images/drenge-som-klatre.jpg);
+	background-size:cover;
+}
+
 .content {
 	margin-top: 2%;
 }
@@ -32,11 +49,6 @@
 	padding: 7%;
 	margin-right: 8px;
 	margin-left: 8px;
-}
-
-#logo {
-	height: 100%;
-	margin-top: 5%;
 }
 
 h1 {
@@ -57,15 +69,26 @@ h3 {
 h2 {
 	margin: 0;
 }
-
 p {
 	font-family: 'abel', sans serif;
 	color: white;
 	font-size: 16px;
 }
 
-.btn, .btn-default {
+.btn, .btn-default button {
 	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	border-radius: 0;
+}
+
+.btn:focus,.btn:active .btn-default:focus .btn-default:active {
+   outline: none !important;
+   box-shadow: none;
+	background-color: rgba(51,0,0,0.90);
+	opacity: 1;
+	
 }
 
 .knapper {
@@ -77,9 +100,6 @@ p {
 	background-color: #330000;
 }
 
-.lilleh2 .mellemh2:hover {
-	opacity: 0.3;
-}
 
 .book-knap:hover {
 	background-color: #330000;
@@ -87,6 +107,7 @@ p {
 
 .book-knap {
 	background-color: #003300;
+	letter-spacing: 5px;
 	font-size: 70px;
 	color: white;
 	padding: 15px 25px;
@@ -129,7 +150,9 @@ p {
 	margin-bottom: 0;
 }
 
-
+#book {
+	margin: 8px 8px 0px 0;
+}
 /* ------------- Booking side ------------- */
 
 .trin1, .trin2, .trin3 {
@@ -226,7 +249,7 @@ p {
 }
 
 #erfaring {
-	margin: 0 0 8px 8px;
+	margin: 8px 0 8px 8px;
 }
 
 /*-------- praktisk info slut ------------*/
@@ -263,11 +286,6 @@ p {
 	margin: 8px 0px 8px 8px;
 }
 
-.book {
-	letter-spacing: 5px;
-	margin: 8px 8px 0px 0px;
-}
-
 #born {
 	font-size: 250%;
 	margin-right: 8px;
@@ -280,6 +298,12 @@ p {
 
 /* ------- Header ------------ */
 
+
+
+#logo {
+	height: 100%;
+}
+
 .menu-baggrund {
 	background: rgba(51,0,0,0.90);
 	padding: 10%;
@@ -287,7 +311,7 @@ p {
 
 #menuknap {
 	background-color: transparent;
-	border-radius: 0;
+	border-radius: 0; /*gør hjørnene spidse */
 	border-color: transparent;
 	outline: 0;
 	padding: 0;
@@ -300,7 +324,7 @@ p {
 
 .menuoverskrift {
 	font-size: 30px;
-	padding-top: 2%;
+	margin-top: 10%;
 	text-transform: uppercase;
 	color: white;
 }
@@ -311,6 +335,7 @@ p {
 	text-transform: uppercase;
 }
 
+
 .menupunkter:hover {
 	color: #000033;
 }
@@ -318,7 +343,6 @@ p {
 .current { 
 	color: #003300;					/* jeg ønsker at tekstens farve bliver grøn, men det vil ikke virke. Det er som om det bliver overrided, men jeg kan ikke løse det. dog reagere det fint på backgroundcolor og andre styles. borders er ikke meningen. */
 	border-top: solid;
-	border-bottom-top-radius: 3px;
 	border-color: #003300;
 	border-bottom: solid;
 }
@@ -379,7 +403,7 @@ footer {
 
 @media screen and (max-width: 1300px) {
 	.storh2 {
-		font: 55px;
+		font-size: 55px;
 	}
 	
 	.mellemh2 {
